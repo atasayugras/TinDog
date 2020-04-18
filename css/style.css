@@ -40,16 +40,29 @@ p{
 
 
 
-/* Navigation */
+/* Sections */
+.white-section {
+    background-color: #fff;
+}
+
+.colored-section {
+    background-color: #ff4c68;
+}
+
+
+
+
+
+ /* Navigation */
 
 nav .container-fluid {
-padding: 1% 15%;
+padding: 0 15%;
 } 
  
  .navbar-brand {
      font-family: 'Ubuntu';
      font-size: 2.5rem;
-     font-weight: 700;
+     font-weight: 500;
  }
  
  .nav-item {
@@ -65,7 +78,6 @@ padding: 1% 15%;
  /* Title Section*/
 
 #title {
-    background-color: #ff4c68;
     color: white;
     text-align: left;
 }
@@ -98,7 +110,6 @@ padding: 1% 15%;
 
 /* Features Section */
 #features {
-    background-color: white;
     position: relative;
 }
 
@@ -125,7 +136,6 @@ padding: 1% 15%;
 
 /* Testimonial Section */
 #testimonials {
-    background-color: #ff4c68;
     color: white;
 }
 
@@ -141,7 +151,6 @@ padding: 1% 15%;
 }
 
 #press {
-    background-color: #ff4c68;
     padding-bottom: 3%;
 }
 
@@ -175,7 +184,6 @@ padding: 1% 15%;
 
 /* Call To Action Section */
 #cta {
-    background-color: #ff4c68;
     color: white;
 }
 
@@ -188,7 +196,7 @@ padding: 1% 15%;
     padding: 3% 1%;
 }
 
-.copyright {
+.copyright-text {
     font-size: large;
 }
 
