@@ -47,6 +47,7 @@ p{
 
 .colored-section {
     background-color: #ff4c68;
+    color: #fff
 }
 
 
@@ -75,16 +76,18 @@ padding: 0 15%;
  }
 
 
+
+
+
  /* Title Section*/
 
-#title {
-    color: white;
+#title .title-container {
+    padding: 7% 15% 9%;
     text-align: left;
 }
 
-#title .title-container {
-    padding: 7% 15% 17%;
-}
+
+
 
 
 /* Title Image  */
@@ -121,7 +124,7 @@ padding: 0 15%;
     padding: 5%;
 }
 
-.icon {
+.feature-icon {
     color: #ef8172;
     margin-bottom: 1rem; 
 }
@@ -135,9 +138,6 @@ padding: 0 15%;
 
 
 /* Testimonial Section */
-#testimonials {
-    color: white;
-}
 
 .testimonial-text {
     font-size: 3rem;
@@ -176,15 +176,6 @@ padding: 0 15%;
 
 .pricing-column{
     padding: 3% 2%;
-}
-
-
-
-
-
-/* Call To Action Section */
-#cta {
-    color: white;
 }
 
 
